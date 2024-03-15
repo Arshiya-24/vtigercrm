@@ -1,0 +1,13 @@
+package genericLibraries;
+
+/**
+ * This interface contains the external file paths and JDBC url
+ * @author TRACK QJSPIDERS
+ */
+
+public interface IConstantpath {
+	String PROPERTIES_PATH="./src/test/resources/commonData.properties";
+	String EXCEL_PATH="./src/test/resources/VtigerCRMTestData (2).xlsx";
+	String JDBC_URL="jdbc:mysql://localhost:3306/selenium";
+
+}
